@@ -20,7 +20,21 @@ What Program analysis do to achieve above?
 
 ```mermaid
 graph LR
-Input --> Program --> Output
+A((Input))
+C((Output))
+D(Additional Info)
+A --> Program --> C
+Program -.- D
 
 ```
+
+You may feed many Inputs to program analyzed and get output from it, while you get additional information which is exactly what we want.
+
+There are two way of program analysis: Static and Dynamic
+
+|                  Static                   |          Dynamic           |
+| :---------------------------------------: | :------------------------: |
+| Analysis source code, bytecode, or binary | Analysis program execution |
+|            consider all inputs            |   consider current input   |
+|              overapproximate              |      underapproximate      |
 
