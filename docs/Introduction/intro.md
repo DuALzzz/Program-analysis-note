@@ -32,9 +32,16 @@ You may feed many Inputs to program analyzed and get output from it, while you g
 
 There are two way of program analysis: Static and Dynamic
 
-|                  Static                   |          Dynamic           |
-| :---------------------------------------: | :------------------------: |
-| Analysis source code, bytecode, or binary | Analysis program execution |
-|            consider all inputs            |   consider current input   |
-|              overapproximate              |      underapproximate      |
+|                  Static                   |                  Dynamic                  |
+| :---------------------------------------: | :---------------------------------------: |
+| Analysis source code, bytecode, or binary |        Analysis program execution         |
+|            consider all inputs            |          consider current input           |
+|              overapproximate              |             underapproximate              |
+| Application： compliers, lint-like tools  | Application: automated testing, profilers |
+
+Now I will cite a picture from prof. Michael's notes to illustrate the term "over-approximate" and "under-approximate"
+
+<img src="D:\Wechat\WeChat Files\wxid_vxpstd0vv7n132\FileStorage\Temp\1700476354669.png" alt="1700476354669" style="zoom:43%;" />
+
+While Dynamic analysis requires input to run the program, **Test Generation** can creates inputs automatically.
 
