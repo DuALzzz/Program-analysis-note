@@ -97,7 +97,7 @@ There are two ways to describe the syntax of a language: Grammar and Abstract sy
 
    $N=\{Exp,Num,Op,Digit\}$
 
-$s=Exp$
+$s=Exp$<br>
 $$
    \begin{aligned}
    P=& Exp\rightarrow Num|Exp\ Op\ Exp\\
@@ -111,7 +111,7 @@ $$
 
    1. abstract grammar
 
-      Example of Arithmetic Expression:
+      Example of Arithmetic Expression:<br>
       $$
       E\rightarrow n | Op(E,E)\\
       Op\rightarrow +|-
