@@ -41,7 +41,7 @@ There are two way of program analysis: Static and Dynamic
 
 Now I will cite a picture from prof. Michael's notes to illustrate the term "over-approximate" and "under-approximate"
 
-<img src="D:\Wechat\WeChat Files\wxid_vxpstd0vv7n132\FileStorage\Temp\1700476354669.png" alt="1700476354669" style="zoom:43%;" />
+<img src="D:\Analysis-note\Program-analysis-note\img\approximate" alt="1700476354669" style="zoom:43%;" />
 
 While Dynamic analysis requires input to run the program, **Test Generation** can creates inputs automatically.
 
