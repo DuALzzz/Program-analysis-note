@@ -97,15 +97,15 @@ There are two ways to describe the syntax of a language: Grammar and Abstract sy
 
    $N=\{Exp,Num,Op,Digit\}$
 
-   $s=Exp$
-   $$
+$s=Exp$
+$$
    \begin{aligned}
    P=& Exp\rightarrow Num|Exp\ Op\ Exp\\
    &Op\rightarrow +|-\\
    &Num\rightarrow Digit|Digit\ Num\\
    &Digit\rightarrow 0|1|...|9\\
    \end{aligned}
-   $$
+$$
 
 2. Abstract syntax trees
 
