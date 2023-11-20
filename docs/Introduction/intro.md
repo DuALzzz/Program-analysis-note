@@ -97,29 +97,26 @@ There are two ways to describe the syntax of a language: Grammar and Abstract sy
 
    $N=\{Exp,Num,Op,Digit\}$
 
-$s=Exp$<br>
-$$
-   \begin{aligned}
-   P=& Exp\rightarrow Num|Exp\ Op\ Exp\\
-   &Op\rightarrow +|-\\
-   &Num\rightarrow Digit|Digit\ Num\\
-   &Digit\rightarrow 0|1|...|9\\
-   \end{aligned}
-$$
+​	$s=Exp$
+
+​	$P= Exp\rightarrow Num|Exp\ Op\ Exp$
+
+   		$Op\rightarrow +|-$
+   		$Num\rightarrow Digit|Digit\ Num$
+   		$Digit\rightarrow 0|1|...|9$
 
 2. Abstract syntax trees
 
    1. abstract grammar
 
       Example of Arithmetic Expression:<br>
-      $$
-      E\rightarrow n | Op(E,E)\\
-      Op\rightarrow +|-
-      $$
-
-   2. terminals = tokens
-
-      ```mermaid
+   
+      $E\rightarrow n | Op(E,E)$
+      $Op\rightarrow +|-$
+   
+2. terminals = tokens
+   
+   ```mermaid
       graph TD
       A(+)
       B(3)
@@ -127,10 +124,10 @@ $$
       A --> B
       A --> C
       ```
-
-      
-
-      
-
-      
+   
+   
+   
+   
+   
+   
 
